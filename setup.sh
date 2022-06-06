@@ -15,7 +15,7 @@ mkdir dependencies
 # install EAC to Equirectangular conversion binary
 #
 pushd dependencies && \
-git clone git@github.com:aurvis/max2sphere-batch && \
+git clone git@github.com:mcvarer/max2sphere-batch.git && \
 pushd max2sphere-batch && \
 make -j && \
 cp MAX2spherebatch ../../bin/
